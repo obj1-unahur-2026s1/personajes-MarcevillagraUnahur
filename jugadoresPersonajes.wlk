@@ -1,6 +1,4 @@
-// ==========================================
 // ARMAS
-// ==========================================
 
 object jabalina {
   var cargada = true
@@ -30,10 +28,7 @@ object ballesta {
 }
 
 
-
-// ==========================================
 // ELEMENTOS
-// ==========================================
 
 object castillo {
   const altura = 20
@@ -92,9 +87,7 @@ object tipa {
 }
 
 
-// ==========================================
 // PERSONAJES
-// ==========================================
 
 object floki {
   var arma = jabalina   // floki arranca con la jabalina
@@ -132,9 +125,7 @@ object mario {
 }
 
 
-// ==========================================
 // JUGADORA
-// ==========================================
 
 object luisa {
   var personajeActivo = null
