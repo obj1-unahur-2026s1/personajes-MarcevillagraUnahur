@@ -29,7 +29,7 @@ object mario {
   method encontrar(elemento) {
     valorRecolectado += elemento.valorParaMario()
     elemento.recibirTrabajo()
-    ultimoElemento = elemento   // ← línea que faltaba en el enunciado
+    ultimoElemento = elemento   
   }
 
   method esFeliz() =
