@@ -33,7 +33,8 @@ object mario {
   }
 
   method esFeliz() =
-    valorRecolectado >= 50 || ultimoElemento.altura() >= 10
+  valorRecolectado >= 50 || 
+  (ultimoElemento != null && ultimoElemento.altura() >= 10)
 }
 
 
